@@ -1,1 +1,78 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>webpack is great</title><script type="text/javascript" src="http://cdn.com/js/main-c620ae06ed829e817040.js"></script></head><body>Thu Mar 30 2017 15:44:51 GMT+0800 (CST)<script type="text/javascript" src="http://cdn.com/js/a-c04bfad2c6e57693e188.js"></script></body></html>
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: TypeError: Cannot read property 'bypassOnDebug' of null
+  
+  
+  - TypeError: Cannot read property 'bypassOnDebug' of null
+  
+  - compiler.js:76 
+    [webpack-demo]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:291 Compiler.<anonymous>
+    [webpack-demo]/[webpack]/lib/Compiler.js:291:10
+  
+  - Compiler.js:494 
+    [webpack-demo]/[webpack]/lib/Compiler.js:494:13
+  
+  - Tapable.js:138 next
+    [webpack-demo]/[tapable]/lib/Tapable.js:138:11
+  
+  - CachePlugin.js:62 Compiler.<anonymous>
+    [webpack-demo]/[webpack]/lib/CachePlugin.js:62:5
+  
+  - Tapable.js:142 Compiler.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:142:13
+  
+  - Compiler.js:491 
+    [webpack-demo]/[webpack]/lib/Compiler.js:491:10
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:645 self.applyPluginsAsync.err
+    [webpack-demo]/[webpack]/lib/Compilation.js:645:19
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:636 self.applyPluginsAsync.err
+    [webpack-demo]/[webpack]/lib/Compilation.js:636:11
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:631 self.applyPluginsAsync.err
+    [webpack-demo]/[webpack]/lib/Compilation.js:631:10
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:627 sealPart2
+    [webpack-demo]/[webpack]/lib/Compilation.js:627:9
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack-demo]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:575 Compilation.seal
+    [webpack-demo]/[webpack]/lib/Compilation.js:575:8
+  
+  - Compiler.js:488 
+    [webpack-demo]/[webpack]/lib/Compiler.js:488:16
+  
+  - Tapable.js:225 
+    [webpack-demo]/[tapable]/lib/Tapable.js:225:11
+  
+  - Compilation.js:477 _addModuleChain
+    [webpack-demo]/[webpack]/lib/Compilation.js:477:11
+  
+  - Compilation.js:448 processModuleDependencies.err
+    [webpack-demo]/[webpack]/lib/Compilation.js:448:13
+  
+  - next_tick.js:67 _combinedTickCallback
+    internal/process/next_tick.js:67:7
+  
+  - next_tick.js:98 process._tickCallback
+    internal/process/next_tick.js:98:9
+  
+</pre><script type="text/javascript" src="js/main.bundle.js"></script>
